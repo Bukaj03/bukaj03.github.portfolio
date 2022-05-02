@@ -39,16 +39,18 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
     text-align: center;
     padding: 20px 0 20px 0;
     background-color: var(--black-yellow);
+
 }
 
 .logo-header{
-
+    color: black;
 }
 .logo-name{
-
+    color: black;
 }
 .logo-description{
     font-size: 8px;
+    color: black;
 }
 
 /*
@@ -63,7 +65,22 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
 
 }
 .navigation-list-row{
-
+    position: relative;
+}
+.navigation-list-row:before{
+    content: "";
+    display: block;
+    background-color: var(--black-yellow);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -80px;
+    transition: left 0.2s;
+    transition-timing-function: ease-in;
+    z-index: -1;
+}
+.navigation-list-row:hover:before{
+    left: 0;
 }
 .navigation-list-row-link{
     display: flex;
