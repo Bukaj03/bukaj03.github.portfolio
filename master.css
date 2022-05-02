@@ -13,7 +13,7 @@
     --grey: #e5e5e5;
 }
 
-body, ul, li, a, h1, h2, h3, h4, h5, h6{
+body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     padding: 0;
 }
@@ -30,8 +30,28 @@ body{
 
 .menu {
     background-color: var(--black);
-    width: 100px;
+    width: 80px;
     flex-shrink: 0;
+}
+
+/*
+    /\/\/\/\/\/\/\ LOGO /\/\/\/\/\/\/\
+ */
+
+.logo{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: var(--black-yellow);
+}
+
+.logo-header{
+
+}
+.logo-name{
+
+}
+.logo-description{
+    font-size: 8px;
 }
 
 /*
@@ -39,6 +59,32 @@ body{
  */
 
 .navigation{
+    margin-top: 80px;
+}
+
+.navigation-list{
+
+}
+.navigation-list-row{
+
+}
+.navigation-list-row-link{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #3b3f46;
+}
+
+.navigation-list-row-link:first-child {
+    border-top: 1px solid #3b3f46;
+}
+
+/*
+    /\/\/\/\/\/\/\ LINKS /\/\/\/\/\/\/\
+ */
+
+.links{
 
 }
 
@@ -56,5 +102,16 @@ body{
  */
 
 .banner{
-
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-header{
+    margin-left: 20px;
+    font-size: 50px;
+}
+.banner-description{
+    margin-left: 20px;
 }
