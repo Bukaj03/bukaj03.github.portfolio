@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 
 :root{
@@ -9,8 +12,43 @@
 body, ul, li, a, h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
-    color: black;
 }
 
+body{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/*
+    /\/\/\/\/\/\/\ MENU /\/\/\/\/\/\/\
+ */
+
+.menu {
+    background-color: black;
+    width: 100px;
+}
+
+/*
+    /\/\/\/\/\/\/\ NAVIGATION /\/\/\/\/\/\/\
+ */
+
+.navigation{
+
+}
+
+/*
+    /\/\/\/\/\/\/\ CONTAINER /\/\/\/\/\/\/\
+ */
+
+.container{
+    width: 100%;
+}
+
+/*
+    /\/\/\/\/\/\/\ BANNER /\/\/\/\/\/\/\
+ */
+
+.banner{
+
+}
