@@ -6,7 +6,11 @@
 }
 
 :root{
-
+    --black: #1e2328;
+    --black-grey: #2a2e34;
+    --black-yellow: #ffc300;
+    --yellow: #ffd60a;
+    --grey: #e5e5e5;
 }
 
 body, ul, li, a, h1, h2, h3, h4, h5, h6{
@@ -25,8 +29,9 @@ body{
  */
 
 .menu {
-    background-color: black;
+    background-color: var(--black);
     width: 100px;
+    flex-shrink: 0;
 }
 
 /*
@@ -42,6 +47,7 @@ body{
  */
 
 .container{
+    background-color: var(--black-grey);
     width: 100%;
 }
 
