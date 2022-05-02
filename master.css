@@ -6,6 +6,7 @@
 }
 
 :root{
+    font-family: 'Radio Canada', sans-serif;
     --black: #1e2328;
     --black-grey: #2a2e34;
     --black-yellow: #ffc300;
@@ -33,6 +34,7 @@ body{
     background-color: var(--black-grey);
     width: 100%;
     margin-left: 80px;
+    position: relative;
 }
 
 /*

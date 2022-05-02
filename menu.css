@@ -28,7 +28,7 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
     width: 80px;
     height: 100vh;
     flex-shrink: 0;
-
+    z-index: 1;
 }
 
 /*
@@ -39,9 +39,24 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
     text-align: center;
     padding: 20px 0 20px 0;
     background-color: var(--black-yellow);
-
+    height: 100px;
 }
-
+.logo:after{
+    z-index: -1;
+    top: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--black-yellow);
+    left: calc(-100vw + 80px);
+    transition: left 0.5s;
+    transition-timing-function: ease-in;
+}
+.logo:hover:after{
+    left: 80px;
+}
 .logo-header{
     color: black;
 }
@@ -88,6 +103,7 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #3b3f46;
+    font-weight: bold;
 }
 
 .navigation-list-row-link:first-child {
