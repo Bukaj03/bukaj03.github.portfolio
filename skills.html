@@ -8,8 +8,14 @@
     <title>SKills</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <script src="script.js" rel="script"></script>
 </head>
 <body>
+<div class="menu-button" onclick="openMenu()">|||</div>
     <aside class="menu">
 
         <a href="index.html">
@@ -40,12 +46,37 @@
         <footer class="links">
 
         </footer>
-
+        <div class="close-menu" onclick="closeMenu()">&times</div>
     </aside>
 
-    <section class="skills">
-        <h2 class="skills-header">My skills</h2>
-        <p class="skills-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam molestias, obcaecati placeat quam quibusdam sed unde?</p>
+    <section class="skills container">
+    <article class="skills-document document">
+        <h2 class="skills-document-header header">My skills</h2>
+        <p class="skills-document-description description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat
+            incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias
+            perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam
+            molestias, obcaecati placeat quam quibusdam sed unde?</p>
+        <a class="btn" href="contact.html">Contact</a>
+    </article>
+    <article class="graph">
+        <div class="graph-container">
+            <div class="graph-container-column graph-graph-1"></div>
+            <div class="graph-container-img graph-img-1"></div>
+        </div>
+        <div class="graph-container">
+            <div class="graph-container-column graph-graph-2"></div>
+            <div class="graph-container-img graph-img-2"></div>
+        </div>
+        <div class="graph-container">
+            <div class="graph-container-column graph-graph-3"></div>
+            <div class="graph-container-img graph-img-3"></div>
+        </div>
+        <div class="graph-container">
+            <div class="graph-container-column graph-graph-4"></div>
+            <div class="graph-container-img graph-img-4"></div>
+        </div>
+    </article>
     </section>
 
 </body>

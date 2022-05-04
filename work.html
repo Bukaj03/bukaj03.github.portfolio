@@ -7,9 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Work</title>
   <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="page.css">
   <link rel="stylesheet" href="work.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+  <script src="script.js" rel="script"></script>
 </head>
 <body>
+<div class="menu-button" onclick="openMenu()">|||</div>
   <aside class="menu">
 
     <a href="index.html">
@@ -40,12 +46,57 @@
     <footer class="links">
 
     </footer>
-
+    <div class="close-menu" onclick="closeMenu()">&times</div>
   </aside>
 
-  <section class="work">
-    <h2 class="work-header">My work</h2>
-    <p class="work-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam molestias, obcaecati placeat quam quibusdam sed unde?</p>
+  <section class="work container">
+    <article class="work-document document">
+      <h2 class="work-document-header header">My work</h2>
+      <p class="work-document-description description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat
+        incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias
+        perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam
+        molestias, obcaecati placeat quam quibusdam sed unde?</p>
+
+    </article>
+    <article class="work-gallery">
+
+      <div class="work-gallery-link" onclick="modal(1)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(2)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(3)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(4)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(5)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(6)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(7)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(8)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(9)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+      <div class="work-gallery-link" onclick="modal(10)">
+        <img class="work-gallery-link-image" src="https://via.placeholder.com/300" alt="">
+      </div>
+
+    </article>
+    <div>
+      <a class="btn" href="contact.html">Contact</a>
+    </div>
+
   </section>
 
 </body>

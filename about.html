@@ -8,8 +8,14 @@
     <title>About me</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <script src="script.js" rel="script"></script>
 </head>
     <body>
+    <div class="menu-button" onclick="openMenu()">|||</div>
     <aside class="menu">
 
         <a href="index.html">
@@ -40,12 +46,29 @@
         <footer class="links">
 
         </footer>
-
+        <div class="close-menu" onclick="closeMenu()">&times</div>
     </aside>
 
-    <section class="about">
-        <h2 class="about-header">About me</h2>
-        <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam molestias, obcaecati placeat quam quibusdam sed unde?</p>
+    <section class="about container">
+        <article class="about-document document">
+            <h2 class="about-document-header header">About me</h2>
+            <p class="about-document-description description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus ad asperiores, assumenda, at culpa deserunt dolorem eligendi esse et facere, fugiat
+                incidunt obcaecati placeat possimus quos repellendus repudiandae vitae. Explicabo molestias
+                perferendis quae quam sunt? A cumque deserunt dignissimos, eligendi exercitationem iste, laboriosam
+                molestias, obcaecati placeat quam quibusdam sed unde?</p>
+            <a class="btn" href="contact.html">Contact</a>
+        </article>
+        <article class="about-content">
+            <div class="about-content-box col-1">Programing</div>
+            <div class="about-content-box col-2">Food</div>
+            <div class="about-content-box col-3">Math</div>
+            <div class="about-content-box col-4">Games</div>
+            <div class="about-content-box col-5">Thinking</div>
+            <div class="about-content-box col-6">AI</div>
+            <div class="about-content-box col-7">Physics</div>
+            <div class="about-content-box col-8">Constructing</div>
+        </article>
     </section>
 
 </body>
