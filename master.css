@@ -124,7 +124,7 @@ body{
     flex-wrap: wrap;
     gap: 10px;
 }
-.portfolio-gallery-modal{
+.modal{
     display: none;
     position: fixed;
     z-index: 3;
@@ -138,10 +138,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-.portfolio-gallery-modal .close{
-    font-size: 50px;
+.close{
+    font-size: 100px;
 }
-.portfolio-gallery-modal-img{
+
+.caption{
+    margin: 20px;
+    font-size: 18px;
+}
+
+.modal-content, .close, .caption, .modal-link{
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -157,26 +163,11 @@ body{
     width: 300px;
     height: 300px;
 }
-.portfolio-gallery-link:after{
-    content: "";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
+.modal-link{
     background-color: var(--black-yellow);
-    transition: width 0.5s;
-    font-size: 20px;
-    font-weight: bold;
     color: black;
-
-}
-.portfolio-gallery-link:hover:after{
-    content: "VIEW";
-    width: 100px;
-    height: 100px;
+    padding: 10px;
+    font-size: 30px;
 }
 .portfolio-gallery-link-image{
     display: block;
