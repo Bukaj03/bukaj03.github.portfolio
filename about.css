@@ -2,7 +2,7 @@
     margin-left: 5%;
     width: 45%;
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
     gap: 10px;
     justify-content: center;
@@ -52,4 +52,16 @@
 .col-8{
     grid-column: 2 / 4;
     grid-row: 4;
+}
+@media only screen and (max-width: 1350px) {
+    .about-content{
+        width: 90%;
+        margin: 0;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .about-content-box{
+        font-size: 30px;
+    }
 }
