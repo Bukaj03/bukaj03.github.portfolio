@@ -28,7 +28,7 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p, button{
     z-index: 2;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100px;
