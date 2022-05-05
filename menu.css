@@ -42,9 +42,9 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p, button{
 .close-menu{
     font-size: 140px;
     position: absolute;
-    margin-top: 40px;
-    left: 50%;
-    transform: translate(-50%);
+    top: 0;
+    right: 0;
+    z-index: 10;
     display: none;
 }
 
@@ -197,6 +197,7 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p, button{
 
 @media only screen and (max-width: 900px) {
     .menu{
+        position: relative;
         display: none;
         width: 100%;
         z-index: 2;
@@ -214,4 +215,8 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p, button{
     .menu-button{
         display: flex;
     }
+    .navigation-list-row-link{
+        height: 10vh;
+    }
+
 }
