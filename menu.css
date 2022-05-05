@@ -197,7 +197,6 @@ body, ul, li, a, h1, h2, h3, h4, h5, h6, p, button{
 
 @media only screen and (max-width: 900px) {
     .menu{
-        position: relative;
         display: none;
         width: 100%;
         z-index: 2;
