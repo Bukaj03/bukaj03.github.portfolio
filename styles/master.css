@@ -220,13 +220,13 @@ body{
     background-position: center;
 }
 .skill-image-1{
-    background-image: url("html.png");
+    background-image: url("../images/html.png");
 }
 .skill-image-2{
-    background-image: url("css.png");
+    background-image: url("../images/css.png");
 }
 .skill-image-3{
-    background-image: url("js.png");
+    background-image: url("../images/js.png");
 }
 .skills-content-row-graph{
     height: 60px;

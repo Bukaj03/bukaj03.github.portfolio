@@ -27,7 +27,7 @@
 .graph-container-img{
     height: 150px;
     width: 150px;
-    background-image: url("html.png");
+    background-image: url("../images/html.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,25 +36,25 @@
     height: 20%;
 }
 .graph-img-1{
-    background-image: url("html.png");
+    background-image: url("../images/html.png");
 }
 .graph-graph-2:before{
     height: 40%;
 }
 .graph-img-2{
-    background-image: url("css.png");
+    background-image: url("../images/css.png");
 }
 .graph-graph-3:before{
     height: 60%;
 }
 .graph-img-3{
-    background-image: url("js.png");
+    background-image: url("../images/js.png");
 }
 .graph-graph-4:before{
     height: 80%;
 }
 .graph-img-4{
-    background-image: url("php.png");
+    background-image: url("../images/php.png");
 }
 @media only screen and (max-width: 1350px) {
     .graph{
